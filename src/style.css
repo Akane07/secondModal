@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+.result {
+  border: 2px solid black;
+  border-radius: 10px;
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  z-index: -10;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+@media (width < 600px) {
+  .contnet {
+      flex-direction: column;
+  }
+  .field {
+      width: 100%;
+  }
+}
